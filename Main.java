@@ -83,7 +83,7 @@ class ATM{
         System.out.println("Enter amount in the multiples of 100 -");
         double amount = sc.nextDouble();
 
-        if(amount%100 == 0.0){
+        if(amount%100 == 0){
             if(acc.balance >= amount){
                 acc.balance -= amount;
                 System.out.print("\nYour Transaction is Processing\n");
